@@ -1,0 +1,10 @@
+version: '3'
+services:
+  fastapi-app:
+    build:
+      context: ../  # Navigate one directory back to the parent directory
+      dockerfile: devops/Dockerfile  # Specify the path to the Dockerfile in the 'devops' folder
+    ports:
+      - "8000:8000"  # Map the container port to the host machine
+    volumes:
+      - ../backend:/app  # Mount the 'backend' directory into the container

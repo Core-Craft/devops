@@ -15,6 +15,7 @@ To build and run the application using Docker Compose, navigate to this director
 ```bash
 docker-compose up --build
 ```
+This command will launch the application and its associated services, following the configuration defined in the docker-compose.yml file.
 
 ### Project structure is considered in following way:
 
@@ -31,3 +32,6 @@ project/
 
 ```
 
+This structure illustrates how the DevOps directory fits into the larger project.
+
+We encourage you to explore and utilize these Docker configuration files to streamline the deployment of your backend application.

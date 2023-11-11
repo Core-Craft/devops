@@ -28,5 +28,9 @@ sudo usermod -aG docker $USER
 # Display Docker version
 docker --version
 
+# Building the Docker container
+docker build -t your-image-name .
+
+
 # Display Docker info
 docker info

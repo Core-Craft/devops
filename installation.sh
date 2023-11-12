@@ -28,9 +28,11 @@ sudo usermod -aG docker $USER
 # Display Docker version
 docker --version
 
+# Display Docker info
+docker info
+
 # Building the Docker container
 docker build -t your-image-name .
 
-
-# Display Docker info
-docker info
+# Running the container
+docker run -p 80:80 --name your-container-name your-image-name

@@ -32,7 +32,7 @@ docker --version
 docker info
 
 # Building the Docker container
-docker build -t your-image-name .
+docker build -t core-craft .
 
 # Running the container
-docker run -p 80:80 --name your-container-name your-image-name
+docker run -p 80:80 --name core-craft-vm core-craft
